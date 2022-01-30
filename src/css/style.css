@@ -1,0 +1,27 @@
+body {
+    background: black;
+}
+.widget_run {
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 300px;
+    background-color: burlywood;
+    font-size: 40px;
+    color: crimson;
+    text-align: center;
+    cursor:alias;
+    position: relative;
+}
+.widget_form {
+    position: absolute;
+    color:black;
+    width: 300px;
+    height: 200px;
+    background-color: violet;
+    border-radius: 15px;
+    font-size: 20px;
+    z-index: 2;
+}
