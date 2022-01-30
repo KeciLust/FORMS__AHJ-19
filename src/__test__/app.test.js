@@ -23,5 +23,4 @@ describe('Widget', () => {
     await page.waitForSelector('.widget_form');
     await browser.close();
   });
-
 });
