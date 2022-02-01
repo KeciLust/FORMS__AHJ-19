@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "test": "jest",
     "coverage": "jest --coverage",
-    "e2e": "jest --runInBand",
+    "e2e": "jest --runInBand --detectOpenHandles",
     "doc": "jsdoc -c jsdoc.conf.json",
     "preshow:coverage": "npm run coverage",
     "show:coverage": "live-server coverage/lcov-report",
